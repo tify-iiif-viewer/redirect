@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script>
+var uri = 'demo.tify.rocks';
+
+// while current location is 'baz.html?foo=1&a=b' for example
+
+uri = uri + document.location.search;
+
+// this will output 'foobar.html?foo=1&a=b'
+document.location = uri;
+
+</script>
+  </head>
+  <body>
+  </body>
+</html>
